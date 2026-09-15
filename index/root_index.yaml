@@ -3,6 +3,11 @@
 # CI/CD 构建脚本会读取此文件，以确定需要处理哪些学校的适配器资源。
 
 schools:
+  - id: "FJNU"
+    name: "福建师范大学"
+    initial: "F"
+    resource_folder: "FJNU"
+
   - id: "GLOBAL_TOOLS" # id 唯一值
     name: "通用工具与服务" # 名称
     initial: "T" # 排序首字母
